@@ -4,10 +4,10 @@ class GameScene extends Phaser.Scene {
     }
 
     preload() {
-        this.type = 'kali'
+        this.type = 'gearhead'
         this.player
         this.speed = 16
-        this.load.atlas(this.type, '../assets/sprites/kali.png', '../assets/sprites/kali.json');
+        this.load.atlas(this.type, '../assets/sprites/gearhead.png', '../assets/sprites/gearhead.json');
 
     } //end preload
 
